@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Justice</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=EB+Garamond:wght@800&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="./favicon_io/favicon.ico" type="image/x-icon">
+    <style>
+      .garamond{
+        font-family: "EB Garamond", serif;    
+      }
+      .popins{
+        font-family: "Poppins", sans-serif;
+      }
+    </style>
+
+  </head>
+
+  <body>
+    <header class="w-9/12 mx-auto pt-8">
+      <nav class="pb-6">
+        <div class="navbar bg-base-100 flex flex-col lg:flex-row">
+          <div class="navbar-start">
+            <div class="dropdown">
+              <label tabindex="0" class="btn btn-ghost lg:hidden">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="h-5 w-5"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M4 6h16M4 12h8m-8 6h16"
+                  />
+                </svg>
+              </label>
+              <ul
+                tabindex="0"
+                class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
+              >
+              <li><a>Home</a></li>
+              <li tabindex="0"></li>
+              <li><a>Services3</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+              </ul>
+            </div>
+            <div>
+              <img src="images/logo2.png" alt="" />
+            </div>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li tabindex="0"></li>
+              <li><a>Services3</a></li>
+              <li><a>Cases</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+          <div class="navbar-end">
+            <a class="btn btn-error popins text-white font-normal bg-[#B68C5A] ml-10">Free Consultation</a>
+          </div>
+        </div>
+      </nav>
+      <!-- hero section -->
+      <section>
+        <div
+          class="hero h-[550px]"
+          style="background-image: url('./images/banner.png')"
+        >
+          <div class="hero-overlay bg-opacity-60"></div>
+          <div class="hero-content text-center text-neutral-content">
+            <div class="max-w-md">
+              <h1 class="text-5xl text-white font-bold garamond">
+                We Provide Effective Legal Solutions
+              </h1>
+              <p class="mb-5">
+                There are many variations of passages of Lorem Ipsum available,
+                but the majority have suffered alteration in some form, by
+                injected humour.
+              </p>
+              <input type="text" placeholder="Search your services" class="input input-bordered w-full max-w-xs" />
+              <button class="btn border-0 popins font-normal text-white bg-[#B68C5A]">Search</button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
+</html>
